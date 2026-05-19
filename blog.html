@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Protein Nepal</title>
+    <link rel="stylesheet" href="usefullinks.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="FitStore Logo" class="logo-image">
+            </a>
+            
+            <div class="nav-center">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="nutrition">Nutrition</button>
+                    <button class="category-tab" data-category="accessories">Accessories</button>
+                </div>
+                
+                <input type="text" class="search-box" placeholder="Search products...">
+            </div>
+            
+            <div class="nav-actions">
+                <button class="nav-btn">Login</button>
+                <button class="nav-btn">Signup</button>
+                <div class="cart-icon">🛒</div>
+            </div>
+        </nav>
+        
+        <!-- Submenu -->
+        <div class="submenu">
+            <div class="submenu-container">
+                <div class="submenu-items" id="nutrition-submenu">
+                    <a href="protein.html" class="submenu-btn">Protein</a>
+                    <a href="weight-gainer.html" class="submenu-btn">Weight Gainer</a>
+                    <a href="amino-acid.html" class="submenu-btn">Amino Acid</a>
+                    <a href="pre-workout.html" class="submenu-btn">Pre-Workout</a>
+                    <a href="creatine.html" class="submenu-btn">Creatine</a>
+                    <a href="fat-burner.html" class="submenu-btn">Fat Burner</a>
+                    <a href="scitec-essential.html" class="submenu-btn">Scitec Essential</a>
+                    <a href="joint-glucosamine.html" class="submenu-btn">Joint/Glucosamine</a>
+                </div>
+                
+                <div class="submenu-items hidden" id="accessories-submenu">
+                    <button class="submenu-btn">Lifting Gear</button>
+                    <button class="submenu-btn">Training Accessories</button>
+                    <button class="submenu-btn">Hydration and Shakers</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Image Section
+    <div class="image-section">
+        <img src="images/team.jpg" alt="Fitness and Nutrition Blog" class="content-image">
+        <p style="margin-top: 1rem; color: #666; font-style: italic;">Your ultimate source for fitness and nutrition knowledge</p>
+    </div> -->
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="about-us.html" class="breadcrumb-link">About Us</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="faqs.html" class="breadcrumb-link">FAQs</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="blog.html" class="breadcrumb-link">Blog</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="privacy-policy.html" class="breadcrumb-link">Privacy Policy</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="return-refund.html" class="breadcrumb-link">Return Refund</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="contact-us.html" class="breadcrumb-link">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" style="grid-template-columns: 1fr; max-width: 1200px;">
+        <main class="product-listing">
+            <!-- Update the listing header to include all useful links -->
+
+            <div class="listing-header">
+                <div class="listing-info">
+                    <h1>Fitness & Nutrition Blog</h1>
+                    <span class="product-count">Latest articles and tips</span>
+                    <div class="useful-links-nav">
+                        <a href="about-us.html" class="useful-link">About Us</a>
+                        <a href="faqs.html" class="useful-link">FAQs</a>
+                        <a href="blog.html" class="useful-link active">Blog</a>
+                        <a href="privacy-policy.html" class="useful-link">Privacy Policy</a>
+                        <a href="return-refund.html" class="useful-link">Return Refund</a>
+                        <a href="contact-us.html" class="useful-link">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="padding: 2rem 0;">
+                <div class="blog-grid">
+                    <!-- Blog Post 1 -->
+                    <article class="blog-card">
+                        <img src="products/protein1.jpg" alt="Whey Protein Guide" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-meta">January 15, 2025 • 5 min read</div>
+                            <h3 class="blog-title">Complete Guide to Whey Protein</h3>
+                            <p class="blog-excerpt">
+                                Learn everything you need to know about whey protein, including types, benefits, timing, and how to choose the right one for your fitness goals.
+                            </p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="blog-card">
+                        <img src="products/workout1.jpg" alt="Pre-Workout Nutrition" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-meta">January 12, 2025 • 4 min read</div>
+                            <h3 class="blog-title">Pre-Workout Nutrition Tips</h3>
+                            <p class="blog-excerpt">
+                                Maximize your workout performance with proper pre-workout nutrition. Discover the best foods and supplements to fuel your training sessions.
+                            </p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 3 -->
+                    <article class="blog-card">
+                        <img src="images/img1.jpg" alt="Building Muscle" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-meta">January 10, 2025 • 6 min read</div>
+                            <h3 class="blog-title">Building Muscle: A Beginner's Guide</h3>
+                            <p class="blog-excerpt">
+                                Starting your muscle-building journey? Learn the fundamentals of training, nutrition, and supplementation for effective muscle growth.
+                            </p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 4 -->
+                    <article class="blog-card">
+                        <img src="products/fatburner1.jpg" alt="Fat Loss vs Weight Loss" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-meta">January 8, 2025 • 5 min read</div>
+                            <h3 class="blog-title">Fat Loss vs Weight Loss</h3>
+                            <p class="blog-excerpt">
+                                Understand the difference between fat loss and weight loss, and learn strategies to lose fat while preserving muscle mass.
+                            </p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 5 -->
+                    <article class="blog-card">
+                        <img src="images/img2.jpg" alt="Hydration and Performance" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-meta">January 5, 2025 • 4 min read</div>
+                            <h3 class="blog-title">Hydration and Performance</h3>
+                            <p class="blog-excerpt">
+                                Discover how proper hydration affects your workout performance and recovery. Learn when and how much to drink for optimal results.
+                            </p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 6 -->
+                    <article class="blog-card">
+                        <img src="images/img4.jpg" alt="Recovery and Rest Days" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-meta">January 3, 2025 • 5 min read</div>
+                            <h3 class="blog-title">Recovery and Rest Days</h3>
+                            <p class="blog-excerpt">
+                                Learn why recovery is just as important as training. Discover effective recovery strategies and the importance of rest days.
+                            </p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Newsletter Signup -->
+                <div style="margin-top: 4rem; padding: 3rem; background: linear-gradient(135deg, #e53935, #ff6b6b); border-radius: 15px; text-align: center; color: white;">
+                    <h2 style="margin-bottom: 1rem; font-size: 2rem;">Stay Updated</h2>
+                    <p style="margin-bottom: 2rem; font-size: 1.1rem; opacity: 0.9;">Get the latest fitness tips, nutrition advice, and product updates delivered to your inbox.</p>
+                    <div style="display: flex; max-width: 400px; margin: 0 auto; gap: 0; border-radius: 8px; overflow: hidden;">
+                        <input type="email" placeholder="Enter your email" style="flex: 1; padding: 1rem; border: none; outline: none; font-size: 1rem;">
+                        <button style="padding: 1rem 2rem; background: #333; color: white; border: none; cursor: pointer; font-weight: 600;">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave-bg"></div>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#">Iso+Hydro Protein</a></li>
+                    <li><a href="#">Whey Protein Professional</a></li>
+                    <li><a href="#">Whey Protein Professional</a></li>
+                    <li><a href="#">Whey Protein Professional</a></li>
+                    <li><a href="#">Whey Isolate</a></li>
+                    <li><a href="#">Collagen Xpress</a></li>
+                    <li><a href="#">Jumbo White</a></li>
+                    <li><a href="#">Jumbo Hardcore</a></li>
+                    <li><a href="#">Super Hero</a></li>
+                    <li><a href="#">Creatine</a></li>
+                    <li><a href="#">CLA</a></li>
+                    <li><a href="#">Turbo Ripper</a></li>
+                    <li><a href="#">Calcium Magnesium</a></li>
+                    <li><a href="#">Daily Vita-Min</a></li>
+                    <li><a href="#">Liver Support</a></li>
+                    <li><a href="#">Belt Scitec Fabric</a></li>
+                    <li><a href="#">Belt Power Lifting</a></li>
+                    <li><a href="#">Gents Gloves</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Proteins</a></li>
+                    <li><a href="#">Weight Gainer</a></li>
+                    <li><a href="#">Amino Acid</a></li>
+                    <li><a href="#">Pre-Workout</a></li>
+                    <li><a href="#">Creatine</a></li>
+                    <li><a href="#">Fat Burner</a></li>
+                    <li><a href="#">Scitec Essential</a></li>
+                    <li><a href="#">Joint/Glucosamine</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="return-refund.html">Return Refund</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter-section">
+                <h3>Receive Product Alerts</h3>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your Email" class="newsletter-input">
+                    <button class="newsletter-btn">Submit</button>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>+977 3469246963</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>info@proteinnepal.com</span>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#" class="social-icon instagram">📷</a>
+                    <a href="#" class="social-icon linkedin">💼</a>
+                    <a href="#" class="social-icon twitter">🐦</a>
+                    <a href="#" class="social-icon youtube">📺</a>
+                    <a href="#" class="social-icon facebook">📘</a>
+                </div>
+
+                <div class="payment-info">
+                    <p class="payment-text">💯 100% Safe & Secure payments:</p>
+                    <div class="payment-icons">
+                        <img src="images/visa.png" alt="Visa" class="payment-icon">
+                        <img src="images/esewa.png" alt="eSewa" class="payment-icon">
+                        <img src="images/khalti.png" alt="Khalti" class="payment-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>All Protein Nepal products are manufactured at FSSAI approved manufacturing facilities and are not intended to diagnose, treat, cure, or prevent any disease.</p>
+            <p>&copy; 2025 Protein Nepal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script-products.js"></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatine - Premium Nutrition & Accessories</title>
+    <link rel="stylesheet" href="styles-products.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="FitStore Logo" class="logo-image">
+            </a>
+            
+            <div class="nav-center">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="nutrition">Nutrition</button>
+                    <button class="category-tab" data-category="accessories">Accessories</button>
+                </div>
+                
+                <input type="text" class="search-box" placeholder="Search products...">
+            </div>
+            
+            <div class="nav-actions">
+                <button class="nav-btn">Login</button>
+                <button class="nav-btn">Signup</button>
+                <div class="cart-icon">🛒</div>
+            </div>
+        </nav>
+        
+        <!-- Submenu -->
+        <div class="submenu">
+            <div class="submenu-container">
+                <div class="submenu-items" id="nutrition-submenu">
+                    <a href="protein.html" class="submenu-btn">Protein</a>
+                    <a href="weight-gainer.html" class="submenu-btn">Weight Gainer</a>
+                    <a href="amino-acid.html" class="submenu-btn">Amino Acid</a>
+                    <a href="pre-workout.html" class="submenu-btn">Pre-Workout</a>
+                    <a href="creatine.html" class="submenu-btn">Creatine</a>
+                    <a href="fat-burner.html" class="submenu-btn">Fat Burner</a>
+                    <a href="scitec-essential.html" class="submenu-btn">Scitec Essential</a>
+                    <a href="joint-glucosamine.html" class="submenu-btn">Joint/Glucosamine</a>
+                </div>
+                
+                <div class="submenu-items hidden" id="accessories-submenu">
+                    <button class="submenu-btn">Lifting Gear</button>
+                    <button class="submenu-btn">Training Accessories</button>
+                    <button class="submenu-btn">Hydration and Shakers</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-current">Creatine</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Sidebar Filters -->
+        <aside class="sidebar">
+            <div class="filter-section">
+                <h3>CATEGORIES</h3>
+                <ul class="filter-list">
+                    <li><a href="#" class="filter-link active">All Creatine</a></li>
+                    <li><a href="#" class="filter-link">Creatine Monohydrate</a></li>
+                    <li><a href="#" class="filter-link">Micronized Creatine</a></li>
+                </ul>
+            </div>
+
+            <div class="filter-section">
+                <h3>FLAVOUR <span class="expand-icon">▲</span></h3>
+                <div class="filter-content">
+                    <label class="filter-checkbox">
+                        <input type="checkbox" name="flavour" value="unflavoured">
+                        <span class="checkmark"></span>
+                        Unflavoured (1)
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section expandable">
+                <h3>PACK SIZE <span class="expand-icon">▲</span></h3>
+                <div class="filter-content">
+                    <label class="filter-checkbox">
+                        <input type="checkbox" name="pack-size" value="300g">
+                        <span class="checkmark"></span>
+                        300 G (1)
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section expandable">
+                <h3>PRICE <span class="expand-icon">▲</span></h3>
+                <div class="filter-content">
+                    <div class="price-range-info">
+                        The highest price is ₹ 6,000
+                    </div>
+                    <div class="price-inputs">
+                        <div class="price-input-group">
+                            <label for="price-from">From</label>
+                            <div style="position: relative;">
+                                <span class="currency-symbol">₹</span>
+                                <input type="number" id="price-from" class="price-input with-symbol" placeholder="From">
+                            </div>
+                        </div>
+                        <div class="price-input-group">
+                            <label for="price-to">To</label>
+                            <div style="position: relative;">
+                                <span class="currency-symbol">₹</span>
+                                <input type="number" id="price-to" class="price-input with-symbol" placeholder="To">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Product Listing -->
+        <main class="product-listing">
+            <div class="listing-header">
+                <div class="listing-info">
+                    <h1>Creatine</h1>
+                    <span class="product-count">1 product</span>
+                </div>
+                <div class="sort-section">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select" class="sort-dropdown">
+                        <option value="best-selling">Best selling</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="newest">Newest</option>
+                        <option value="rating">Customer Rating</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="images/product5.jpg" alt="Creatine 300 G" class="product-image">
+                        <button class="wishlist-btn">♡</button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Creatine 300 G</div>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="mrp">MRP ₹7,049</span>
+                            <span class="price">₹3,750</span>
+                            <span class="discount">15% OFF</span>
+                        </div>
+                        <div class="tax-info">Inclusive of all taxes</div>
+                        <div class="flavour-count">Unflavoured</div>
+                        <div class="product-buttons">
+                            <button class="buy-now-btn">Buy Now</button>
+                            <button class="add-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="footer-wave-bg"></div>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="#">Iso+Hydro Protein</a></li>
+                <li><a href="#">Whey Protein Professional</a></li>
+                <li><a href="#">Whey Protein Professional</a></li>
+                <li><a href="#">Whey Protein Professional</a></li>
+                <li><a href="#">Whey Isolate</a></li>
+                <li><a href="#">Collagen Xpress</a></li>
+                <li><a href="#">Jumbo White</a></li>
+                <li><a href="#">Jumbo Hardcore</a></li>
+                <li><a href="#">Super Hero</a></li>
+                <li><a href="#">Creatine</a></li>
+                <li><a href="#">CLA</a></li>
+                <li><a href="#">Turbo Ripper</a></li>
+                <li><a href="#">Calcium Magnesium</a></li>
+                <li><a href="#">Daily Vita-Min</a></li>
+                <li><a href="#">Liver Support</a></li>
+                <li><a href="#">Belt Scitec Fabric</a></li>
+                <li><a href="#">Belt Power Lifting</a></li>
+                <li><a href="#">Gents Gloves</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Proteins</a></li>
+                <li><a href="#">Weight Gainer</a></li>
+                <li><a href="#">Amino Acid</a></li>
+                <li><a href="#">Pre-Workout</a></li>
+                <li><a href="#">Creatine</a></li>
+                <li><a href="#">Fat Burner</a></li>
+                <li><a href="#">Scitec Essential</a></li>
+                <li><a href="#">Joint/Glucosamine</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="return-refund.html">Return Refund</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section newsletter-section">
+            <h3>Receive Product Alerts</h3>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Your Email" class="newsletter-input">
+                <button class="newsletter-btn">Submit</button>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <span>+977 3469246963</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <span>info@proteinnepal.com</span>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" class="social-icon instagram">📷</a>
+                <a href="#" class="social-icon linkedin">💼</a>
+                <a href="#" class="social-icon twitter">🐦</a>
+                <a href="#" class="social-icon youtube">📺</a>
+                <a href="#" class="social-icon facebook">📘</a>
+            </div>
+
+            <div class="payment-info">
+                <p class="payment-text">💯 100% Safe & Secure payments:</p>
+                <div class="payment-icons">
+                    <img src="images/visa.png" alt="Visa" class="payment-icon">
+                    <img src="images/esewa.png" alt="eSewa" class="payment-icon">
+                    <img src="images/khalti.png" alt="Khalti" class="payment-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>All Protein Nepal products are manufactured at FSSAI approved manufacturing facilities and are not intended to diagnose, treat, cure, or prevent any disease.</p>
+        <p>&copy; 2025 Protein Nepal. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="script-products.js"></script>
+</body>
+</html>

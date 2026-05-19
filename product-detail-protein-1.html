@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anabolic Iso+Hydro Chocolate 5.2 lbs - Premium Nutrition</title>
+    <link rel="stylesheet" href="styles-products.css">
+    <link rel="stylesheet" href="product-detail.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="FitStore Logo" class="logo-image">
+            </a>
+            
+            <div class="nav-center">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="nutrition">Nutrition</button>
+                    <button class="category-tab" data-category="accessories">Accessories</button>
+                </div>
+                
+                <input type="text" class="search-box" placeholder="Search products...">
+            </div>
+            
+            <div class="nav-actions">
+                <button class="nav-btn">Login</button>
+                <button class="nav-btn">Signup</button>
+                <div class="cart-icon">🛒</div>
+            </div>
+        </nav>
+        
+        <!-- Submenu -->
+        <div class="submenu">
+            <div class="submenu-container">
+                <div class="submenu-items" id="nutrition-submenu">
+                    <a href="protein.html" class="submenu-btn">Protein</a>
+                    <a href="weight-gainer.html" class="submenu-btn">Weight Gainer</a>
+                    <a href="amino-acid.html" class="submenu-btn">Amino Acid</a>
+                    <a href="pre-workout.html" class="submenu-btn">Pre-Workout</a>
+                    <a href="creatine.html" class="submenu-btn">Creatine</a>
+                    <a href="fat-burner.html" class="submenu-btn">Fat Burner</a>
+                    <a href="scitec-essential.html" class="submenu-btn">Scitec Essential</a>
+                    <a href="joint-glucosamine.html" class="submenu-btn">Joint/Glucosamine</a>
+                </div>
+                
+                <div class="submenu-items hidden" id="accessories-submenu">
+                    <button class="submenu-btn">Lifting Gear</button>
+                    <button class="submenu-btn">Training Accessories</button>
+                    <button class="submenu-btn">Hydration and Shakers</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="protein.html" class="breadcrumb-link">Protein</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-current">Anabolic Iso+Hydro Chocolate</span>
+        </div>
+    </div>
+
+    <!-- Product Detail Section -->
+    <div class="product-detail-container">
+        <div class="product-detail-content">
+            <!-- Product Images -->
+            <div class="product-images">
+                <div class="main-image-container">
+                    <img src="products/protein1.jpg" alt="Anabolic Iso+Hydro Chocolate" class="main-product-image" id="mainImage">
+                    <button class="wishlist-btn-detail">♡</button>
+                </div>
+                <div class="thumbnail-images">
+                    <img src="products/protein1.jpg" alt="Product View 1" class="thumbnail active" onclick="changeMainImage(this)">
+                    <img src="products/protein2.jpg" alt="Product View 2" class="thumbnail" onclick="changeMainImage(this)">
+                    <img src="products/protein3.jpg" alt="Product View 3" class="thumbnail" onclick="changeMainImage(this)">
+                </div>
+            </div>
+
+            <!-- Product Information -->
+            <div class="product-info-detail">
+                <h1 class="product-title">Anabolic Iso+Hydro Chocolate 5.2 lbs</h1>
+                
+                <div class="product-rating-detail">
+                    <div class="stars">★★★★★</div>
+                    <span class="review-count">80 REVIEWS</span>
+                    <a href="#" class="write-review">WRITE A REVIEW</a>
+                </div>
+
+                <div class="product-pricing-detail">
+                    <span class="current-price">₹ 18,750</span>
+                    <span class="discount-badge">( 15% OFF )</span>
+                    <div class="mrp-info">
+                        <span class="mrp-label">MRP</span>
+                        <span class="mrp-price">₹19,249</span>
+                    </div>
+                    <p class="tax-inclusive">Inclusive of all taxes</p>
+                </div>
+
+                <div class="seller-info">
+                    <p>Sold By <strong>Protein Nepal Private Limited</strong></p>
+                </div>
+
+                <!-- Flavor Selection -->
+                <div class="product-options">
+                    <h3>Flavour</h3>
+                    <div class="flavor-options">
+                        <button class="option-btn active" data-flavor="chocolate">Double Rich Chocolate</button>
+                        <button class="option-btn" data-flavor="vanilla">Vanilla Ice Cream</button>
+                        <button class="option-btn" data-flavor="strawberry">Delicious Strawberry</button>
+                        <button class="option-btn" data-flavor="cookies">Cookies & Cream</button>
+                        <button class="option-btn" data-flavor="cappuccino">Mocha Cappuccino</button>
+                        <button class="option-btn" data-flavor="banana">Alphonso Mango</button>
+                    </div>
+                </div>
+
+                <!-- Size Selection -->
+                <div class="product-options">
+                    <h3>Size</h3>
+                    <div class="size-options">
+                        <button class="option-btn" data-size="152g">152 g (5.36 oz)</button>
+                        <button class="option-btn" data-size="454g">454 g (1 lbs)</button>
+                        <button class="option-btn active" data-size="907g">907 g (2 lbs)</button>
+                        <button class="option-btn" data-size="2.27kg">2.27 kg (5 lbs)</button>
+                        <button class="option-btn" data-size="1.7kg">1.7 kg (3.7 lbs)</button>
+                        <button class="option-btn" data-size="4kg">4 kg (8.8 lbs)</button>
+                    </div>
+                </div>
+
+                <!-- Quantity and Purchase -->
+                <div class="purchase-section">
+                    <div class="quantity-section">
+                        <label for="quantity">Qty</label>
+                        <div class="quantity-controls">
+                            <button class="qty-btn" onclick="decreaseQuantity()">-</button>
+                            <input type="number" id="quantity" value="1" min="1" max="10">
+                            <button class="qty-btn" onclick="increaseQuantity()">+</button>
+                        </div>
+                    </div>
+
+                    <div class="purchase-buttons">
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="buy-now-btn">Buy Now</button>
+                    </div>
+                </div>
+
+                <!-- Payment Options -->
+                <div class="payment-options">
+                    <p class="payment-text">3 interest free payments of ₹1208.34 💳 <strong>Simpl</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Description -->
+        <div class="product-description">
+            <div class="description-tabs">
+                <button class="tab-btn active" data-tab="description">Description</button>
+                <button class="tab-btn" data-tab="ingredients">Ingredients</button>
+                <button class="tab-btn" data-tab="nutrition">Nutrition Facts</button>
+                <button class="tab-btn" data-tab="reviews">Reviews</button>
+            </div>
+
+            <div class="tab-content active" id="description">
+                <h3>Product Description</h3>
+                <p>Anabolic Iso+Hydro is a premium whey protein isolate and hydrolyzed whey protein blend designed for serious athletes and fitness enthusiasts. This advanced formula provides rapid absorption and superior muscle recovery support.</p>
+                <ul>
+                    <li>25g of high-quality protein per serving</li>
+                    <li>Fast-absorbing whey protein isolate and hydrolyzed whey</li>
+                    <li>Low in carbs and fat</li>
+                    <li>Supports muscle growth and recovery</li>
+                    <li>Great taste and mixability</li>
+                </ul>
+            </div>
+
+            <div class="tab-content" id="ingredients">
+                <h3>Ingredients</h3>
+                <p>Whey Protein Isolate, Hydrolyzed Whey Protein, Natural and Artificial Flavors, Cocoa Powder, Lecithin, Salt, Sucralose, Acesulfame Potassium.</p>
+            </div>
+
+            <div class="tab-content" id="nutrition">
+                <h3>Nutrition Facts</h3>
+                <table class="nutrition-table">
+                    <tr><td>Serving Size</td><td>30g (1 scoop)</td></tr>
+                    <tr><td>Protein</td><td>25g</td></tr>
+                    <tr><td>Carbohydrates</td><td>2g</td></tr>
+                    <tr><td>Fat</td><td>1g</td></tr>
+                    <tr><td>Calories</td><td>120</td></tr>
+                </table>
+            </div>
+
+            <div class="tab-content" id="reviews">
+                <h3>Customer Reviews</h3>
+                <div class="review-summary">
+                    <div class="rating-breakdown">
+                        <span class="stars">★★★★★</span>
+                        <span>4.8 out of 5 stars (80 reviews)</span>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="reviewer-info">
+                        <strong>Rajesh K.</strong>
+                        <span class="review-date">2 weeks ago</span>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">Excellent protein powder! Great taste and mixes well. Highly recommended for muscle building.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave-bg"></div>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#">Iso+Hydro Protein</a></li>
+                    <li><a href="#">Whey Protein Professional</a></li>
+                    <li><a href="#">Whey Isolate</a></li>
+                    <li><a href="#">Collagen Xpress</a></li>
+                    <li><a href="#">Jumbo White</a></li>
+                    <li><a href="#">Creatine</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Proteins</a></li>
+                    <li><a href="#">Weight Gainer</a></li>
+                    <li><a href="#">Amino Acid</a></li>
+                    <li><a href="#">Pre-Workout</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter-section">
+                <h3>Receive Product Alerts</h3>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your Email" class="newsletter-input">
+                    <button class="newsletter-btn">Submit</button>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>+977 3469246963</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>info@proteinnepal.com</span>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#" class="social-icon instagram">📷</a>
+                    <a href="#" class="social-icon linkedin">💼</a>
+                    <a href="#" class="social-icon twitter">🐦</a>
+                    <a href="#" class="social-icon facebook">📘</a>
+                </div>
+
+                <div class="payment-info">
+                    <p class="payment-text">💯 100% Safe & Secure payments:</p>
+                    <div class="payment-icons">
+                        <img src="images/visa.png" alt="Visa" class="payment-icon">
+                        <img src="images/esewa.png" alt="eSewa" class="payment-icon">
+                        <img src="images/khalti.png" alt="Khalti" class="payment-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>All Protein Nepal products are manufactured at FSSAI approved manufacturing facilities and are not intended to diagnose, treat, cure, or prevent any disease.</p>
+            <p>&copy; 2025 Protein Nepal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="product-detail.js"></script>
+</body>
+</html>
